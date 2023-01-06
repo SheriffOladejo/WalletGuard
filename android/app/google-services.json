@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "654407967328",
+    "firebase_url": "https://wallet-guard-18fde-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wallet-guard-18fde",
+    "storage_bucket": "wallet-guard-18fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654407967328:android:597efc2a0f360ced6e9905",
+        "android_client_info": {
+          "package_name": "com.wallet.offline.guard.wallet_offline_guard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654407967328-odlbgi8ht3q4l4vadtqb8ghn4idhu9hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-GpL7xlguF7Bil9Wsjg7VwOR_I76P-oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654407967328-odlbgi8ht3q4l4vadtqb8ghn4idhu9hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+name: wallet_offline_guard
+description: An offline storage for wallet keys
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  sqflite: ^2.2.2
+  intl: ^0.17.0
+  fluttertoast: ^8.0.8
+  firebase_database: ^10.0.9
+  firebase_core: ^2.4.1
+  crypto: ^3.0.1
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "ic_launcher"
+  image_path: "assets/images/logo.png"
+  ios: true
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: syne-extrabold
+      fonts:
+        - asset: assets/fonts/syne-extrabold.ttf
+    - family: syne-bold
+      fonts:
+        - asset: assets/fonts/syne-bold.ttf
+    - family: syne-semibold
+      fonts:
+        - asset: assets/fonts/syne-semibold.ttf
+    - family: syne-medium
+      fonts:
+        - asset: assets/fonts/syne-medium.ttf
+    - family: syne-regular
+      fonts:
+        - asset: assets/fonts/syne-regular.ttf
+    - family: publicsans-regular
+      fonts:
+        - asset: assets/fonts/publicsans-regular.ttf
