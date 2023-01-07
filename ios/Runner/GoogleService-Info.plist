@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>654407967328-7io3mc76a7ghk02jk6dtdc350963003i.apps.googleusercontent.com</string>
+	<string>654407967328-udd32e8ev7ocoouvrvsdvna2m2lkghd1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.654407967328-7io3mc76a7ghk02jk6dtdc350963003i</string>
+	<string>com.googleusercontent.apps.654407967328-udd32e8ev7ocoouvrvsdvna2m2lkghd1</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBEEfkEl8-WdTZvyjG8xGVX4CrcKCJE8KY</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.wallet.offline.guard.walletOfflineGuard</string>
+	<string>com.wallet.guard</string>
 	<key>PROJECT_ID</key>
 	<string>wallet-guard-18fde</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:654407967328:ios:91015d6e6b5d2b076e9905</string>
+	<string>1:654407967328:ios:5fb4f6ac221279f36e9905</string>
 	<key>DATABASE_URL</key>
 	<string>https://wallet-guard-18fde-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
