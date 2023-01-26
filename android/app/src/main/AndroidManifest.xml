@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wallet.offline.guard.wallet_offline_guard">
    <application
-        android:label="Wallet Guard"
+        android:label="Wallet Saver"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

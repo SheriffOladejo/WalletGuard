@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         backgroundColor: HexColor("#040405"),
         title: const Text(
-          "Wallet guard",
+          "Wallet saver",
           style: TextStyle(
               fontSize: 20,
               color: Colors.white,

@@ -25,6 +25,7 @@ class _IntroState extends State<Intro> {
           padding: const EdgeInsets.all(20),
           color: HexColor("#040405"),
           child: Column(
+            mainAxisSize: MainAxisSize.max,
             children: [
               Container(height: 0,),
               Container(
@@ -80,7 +81,8 @@ class _IntroState extends State<Intro> {
                     ],
                   ),
                 ),
-              )
+              ),
+              Container(height: 200,),
             ],
           ),
         ),

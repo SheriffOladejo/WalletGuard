@@ -98,9 +98,9 @@ class _CreatePasswordState extends State<CreatePassword> {
                         fontFamily: 'publicsans-regular'
                       ),
                       controller: password_controller,
-                      obscureText: !is_password_visible,
                       enableSuggestions: false,
                       autocorrect: false,
+                      obscureText: !is_password_visible,
                       decoration: InputDecoration(
                         suffixIcon: IconButton(
                           icon: Icon(
@@ -151,9 +151,9 @@ class _CreatePasswordState extends State<CreatePassword> {
                           fontFamily: 'publicsans-regular'
                       ),
                       controller: confirm_password_controller,
-                      obscureText: !is_confirm_password_visible,
                       enableSuggestions: false,
                       autocorrect: false,
+                      obscureText: !is_confirm_password_visible,
                       decoration: InputDecoration(
                           suffixIcon: IconButton(
                             icon: Icon(
